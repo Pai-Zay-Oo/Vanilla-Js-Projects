@@ -1,1 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+:root{
+    --primary: rgb(37, 182, 59);
+}
+body{
+    background-color: rgba(224, 62, 62, 0.249);
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    width: 400px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+#img{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+#img img{
+    width: 80px;
+    height: 80px;
+    border-radius: 100% ;
+}
+#author{
+    margin-bottom: 10px;
+}
+#job{
+    color: var(--primary);
+    margin-bottom: 10px;
+}
+#about-person{
+    margin-bottom: 10px;
+    color: gray;
+}
+.btn-container{
+    margin-bottom: 10px;
+}
+.btn-container button{
+    padding: 5px 10px;
+    background-color: white;
+    color: var(--primary);
+    border: 1px solid white;
+    font-size: 20px;
+    cursor: pointer;
+}
+#random-btn{
+    padding: 7px 10px;
+    background-color: var(--primary);
+    border: 1px solid var(--primary);
+    border-radius: 15px;
+    color: azure;
+    cursor: pointer;
+}
+#random-btn:hover{
+    background-color: rgb(30, 102, 10) ;
+}
